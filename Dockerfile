@@ -13,7 +13,7 @@ RUN apt-get update && apt-get install -y \
 
 RUN pip install --upgrade pip
 
-RUN pip install --no-cache-dir -r mlproject/requirements.txt
+RUN pip install --no-cache-dir -r mlproject/requirement.txt
 
 RUN pip install gunicorn
 
